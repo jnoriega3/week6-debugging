@@ -24,4 +24,5 @@ def divide( first, second):
     #   3. returns the quotient of first and second
     if second == 0:
         raise exception ("I\'m sorry, I can\'t divide by zero")
-        else return first/second
+    else:
+        return first/second
